@@ -21,9 +21,6 @@ const Hero = () => {
       <Button colorScheme="red" variant="solid">
         Know More
       </Button>
-      <HStack>
-        
-      </HStack>
     </VStack>
   );
 };
