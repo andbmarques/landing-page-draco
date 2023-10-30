@@ -20,7 +20,7 @@ const About = () => {
         px="10"
         textAlign="justify"
         w={["100%", "100%", "80%", "50%"]}
-        transform={["none", "none", "none", "translate(-120px, 0%)"]}
+        transform={["none", "none", "none", "translate(-180px, 0%)"]}
       >
         <Fade left>
           <HStack alignItems="center">
@@ -43,7 +43,7 @@ const About = () => {
         px="10"
         textAlign="justify"
         w={["100%", "100%", "80%", "50%"]}
-        transform={["none", "none", "none", "translate(120px, 0%)"]}
+        transform={["none", "none", "none", "translate(180px, 0%)"]}
       >
         <Fade right>
           <Stack alignItems="center" direction="row-reverse">
