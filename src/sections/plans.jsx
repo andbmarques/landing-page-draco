@@ -44,7 +44,7 @@ const Plans = () => {
             w={["100%", "100%", "calc(38vw)"]}
             borderRadius="md"
             border="2px solid"
-            borderColor="gray.700"
+            borderColor="whiteAlpha.700"
             p={["5", "5", "10"]}
             justifyContent="space-between"
           >
@@ -81,7 +81,7 @@ const Plans = () => {
               </Text>
               <Button
                 size={["sm", "md", "md"]}
-                colorScheme="gray"
+                colorScheme="white"
                 variant="outline"
                 color='white'
               >
@@ -97,7 +97,7 @@ const Plans = () => {
             w={["100%", "100%", "calc(38vw)"]}
             borderRadius="md"
             border="2px solid"
-            borderColor="yellow.700"
+            borderColor="yellow.500"
             p={["5", "5", "10"]}
             justifyContent="space-between"
           >
@@ -129,12 +129,13 @@ const Plans = () => {
               nec felis.
             </Text>
             <HStack w="100%" justifyContent="space-between">
-              <Text fontWeight="bold" color='yellow.600' fontSize="lg">
+              <Text fontWeight="bold" color='yellow.500' fontSize="lg">
                 $30 / month
               </Text>
               <Button
                 size={["sm", "md", "md"]}
                 colorScheme="yellow"
+                color='yellow.500'
                 variant="outline"
               >
                 I want this!
