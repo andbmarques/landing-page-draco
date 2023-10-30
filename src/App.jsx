@@ -2,6 +2,7 @@ import { VStack } from "@chakra-ui/react"
 import Navbar from "./components/navbar"
 import About from "./sections/about"
 import Hero from "./sections/hero"
+import Plans from "./sections/plans"
 
 function App() {
 
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <Hero />
       <About />
+      <Plans />
     </VStack>
   )
 }
