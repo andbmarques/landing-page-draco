@@ -18,7 +18,7 @@ const Plans = () => {
       w="100%"
       h={["calc(85vh)", "calc(90vh)"]}
       alignItems="center"
-      justifyContent="start"
+      justifyContent="center"
       p="0"
       textAlign="center"
     >
